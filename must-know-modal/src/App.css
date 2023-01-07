@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #121214;
+  color: #E1E1E6;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 1.6rem;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  height: 100vh;
+  gap: 3.2rem;
+}
+
+.container h1 {
+  font-size: 3.6rem;
+}
+
+.container button {
+  all: unset;
+  background-color: tomato;
+  padding: 1.2rem 2.4rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.4s;
+  font-weight: 700;
+}
+
+.container button:hover {
+  color: #000;
+  background-color: rgb(235, 116, 95);
+}
